@@ -1,0 +1,72 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #4f46e5, #9333ea);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero span {
+    color: #ffd700;
+}
+
+.skill-card,
+.project-card {
+    transition: 0.3s ease;
+}
+
+.skill-card:hover,
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card {
+    border: none;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+footer {
+    background: #212529;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 2.3rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
